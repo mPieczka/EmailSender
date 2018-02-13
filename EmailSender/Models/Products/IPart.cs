@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmailSender.Models
+namespace EmailSender.Models.Products
 {
-    public interface EmailCreator
+    interface IPart
     {
-        IEmail CombineEmail();
+        string GetContent();
+        PartType GetPartType();
+
     }
 }

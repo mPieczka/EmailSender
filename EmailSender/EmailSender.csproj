@@ -147,14 +147,17 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Creators\DataEmailCreator.cs" />
-    <Compile Include="Models\Creators\EmailCreator.cs" />
+    <Compile Include="Models\Creators\IEmail.cs" />
     <Compile Include="Models\Creators\ReportEmailCreator.cs" />
     <Compile Include="Models\Creators\UnofficialEmailCreator.cs" />
-    <Compile Include="Models\Products\AttachmentEmail.cs" />
-    <Compile Include="Models\Products\AuthorisedEmail.cs" />
-    <Compile Include="Models\Products\IEmail.cs" />
+    <Compile Include="Models\PartType.cs" />
     <Compile Include="Models\Creators\OfficialEmailCreator.cs" />
-    <Compile Include="Models\Products\UrgentEmail.cs" />
+    <Compile Include="Models\Products\IPart.cs" />
+    <Compile Include="Models\Products\MessageTextArrea.cs" />
+    <Compile Include="Models\Products\Part.cs" />
+    <Compile Include="Models\Products\RecipientTextBox.cs" />
+    <Compile Include="Models\Products\SenderTextBox.cs" />
+    <Compile Include="Models\Products\SubjectTextBox.cs" />
     <Compile Include="Models\Sender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
