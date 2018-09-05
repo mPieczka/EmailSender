@@ -1,0 +1,84 @@
+
+Skip to content
+
+    Features
+    Platform
+    Business
+    Explore
+    Pricing
+
+Sign in
+Sign up
+
+1,279
+8,539
+
+    1,740
+
+dotnet/core
+Code
+Issues 34
+Pull requests 3
+Projects 0
+Insights
+Join GitHub today
+
+GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.
+core/.gitignore
+6dd1c9e on 16 May
+@richlander richlander Add .NET Core RC1 version of dotnetsay (#1565)
+@richlander
+@geek
+@Petermarcu
+@terrajobst
+35 lines (30 sloc) 326 Bytes
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+Press h to open a hovercard with more details.
